@@ -1,12 +1,13 @@
 import streamlit as st
 from utils.SymptomSuggestion import predict_disease
 import google.generativeai as genai
+#This is Lonewolf here .
 
 # Set page config (MUST BE THE FIRST STREAMLIT COMMAND)
 st.set_page_config(page_title="Disease Diagnosis", page_icon="🏥", layout="wide")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCTq5sFfuSWeyzQqZKO-jONuMmzQK7Yv50")
+genai.configure(api_key="Your Gemini API KEY")
 
 # Initialize Gemini model
 try:
