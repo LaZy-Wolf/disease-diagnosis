@@ -8,8 +8,8 @@ st.set_page_config(page_title="Disease Diagnosis", page_icon="🏥", layout="wid
 
 # Configure Gemini API
 
-api_key = os.environ.get('Gemini_api_key')
-genai.configure(api_key=api_key)
+Api_key = os.environ.get('Gemini_api_key')
+genai.configure(api_key=Api_key)
 
 # Initialize Gemini model
 try:
